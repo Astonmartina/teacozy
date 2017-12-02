@@ -1,0 +1,36 @@
+* {
+  /*border: red solid 2px;*/
+  font-family: Verdana;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  height: 69px
+  border-bottom: 1px solid seashell;
+}
+
+.navigation {
+  display: flex;
+  width: 750px;
+  justify-content: flex-end;
+}
+
+.main {
+  display: block;
+  height: 2179;
+  width: 1200;
+}
+
+#mission {
+  display: block;
+  background-image: url("../resources/img-mission-background.jpg");
+  justify-content: center;
+  height: 800px;
+  width: 1200px;
+}
