@@ -1,6 +1,6 @@
-* {
+/* {
   border: red solid 1px;
-}
+}*/
 
 body {
   font-family: Helvetica;
@@ -12,13 +12,30 @@ body {
 }
 
 header {
-  width 100%
+  width: 1200px
   position: fixed;
   z-index: 1;
   align-items: center;
   background-color: black;
   height: 69px
+}
+
+header .flex-container {
   border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  /*width: 100%;*/
+
+}
+
+img {
+  height: 50px;
+}
+
+nav span {
+  color: seashell;
+  padding: 10px 20px;
+  text-decoration: underline;
 }
 
 .flex-container {
@@ -97,10 +114,11 @@ h2 {
 
 
 #locations .flex-container {
-  background-color: yellow;
+  /*background-color: yellow;*/
   margin: 0;
   width: 100%;
   justify-content: center;
+  flex-wrap: nowrap;
 
 }
 
@@ -111,7 +129,7 @@ h2 {
   opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
-  background-color: blue;
+  background-color: black;
   flex-basis: 280px;
   display: flex;
   flex-direction: column;
@@ -121,4 +139,5 @@ h2 {
 
 footer {
   text-align: left;
+  padding-left: 20px;
 }
