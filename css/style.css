@@ -18,6 +18,7 @@ header {
   position: fixed;
   z-index: 1;
   align-items: center;
+  border-bottom: 1px solid seashell;
   background-color: black;
   height: 69px
 }
@@ -26,7 +27,7 @@ header {
 header .flex-container {
   height: 69px;
   position: fixed;
-  border-bottom: 1px solid seashell;
+
   /*width: 100%;*/
 }
 
