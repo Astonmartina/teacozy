@@ -9,10 +9,12 @@ body {
   background-color: black;
   text-align: center;
   margin: 0;
+  width: 1442px;
 }
 
+
 header {
-  width: 1200px
+  width: 100%;
   position: fixed;
   z-index: 1;
   align-items: center;
@@ -20,17 +22,19 @@ header {
   height: 69px
 }
 
+
 header .flex-container {
-  border-bottom: 1px solid seashell;
   height: 69px;
   position: fixed;
+  border-bottom: 1px solid seashell;
   /*width: 100%;*/
-
 }
+
 
 img {
   height: 50px;
 }
+
 
 nav span {
   color: seashell;
@@ -38,27 +42,31 @@ nav span {
   text-decoration: underline;
 }
 
+
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-
 }
+
+
 nav {
   display: block;
   flex-grow: 1;
   text-align: right;
 }
 
+
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
 }
 
+
 h2 {
   font-size: 33px
 }
+
 
 .main {
   display: block;
@@ -66,17 +74,20 @@ h2 {
   width: 1200px;
 }
 
+
 #mission {
   background-image: url("../resources/img-mission-background.jpg");
   padding-top: 70px;
   height: 700px;
 }
 
+
 #mission .content {
   margin: auto;
   background-color: black;
   width: 100%;
 }
+
 
 #store {
   padding-top: 70px;
@@ -85,12 +96,13 @@ h2 {
   margin: auto;
 }
 
+
 .item img {
   height: 200px;
   margin: 10px;
   display: block;
-
 }
+
 
 .item span {
   display: block;
@@ -99,10 +111,10 @@ h2 {
   text-align: center;
 }
 
+
 .item {
   padding: 2px;
 }
-
 
 
 #locations {
@@ -114,15 +126,10 @@ h2 {
 
 
 #locations .flex-container {
-  /*background-color: yellow;*/
   margin: 0;
-  width: 100%;
   justify-content: center;
   flex-wrap: nowrap;
-
 }
-
-
 
 
 .location {
@@ -137,7 +144,17 @@ h2 {
   text-align: center;
 }
 
+
 footer {
   text-align: left;
   padding-left: 20px;
 }
+
+
+
+
+
+
+  text-align: left;
+  padding-left: 20px;
+}*/
